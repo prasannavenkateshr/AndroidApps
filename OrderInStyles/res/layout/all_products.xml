@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg">
+	<!-- Main ListView 
+		 Always give id value as list(@android:id/list)
+	-->
+	<Button
+        android:id="@+id/btn_offer"
+        android:layout_width="170dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textSize="10pt"
+        android:layout_marginTop="15dip"
+        android:layout_marginLeft="70dip"
+        android:layout_marginRight="70dip"
+        android:text="Offers In Style" 
+        android:background="#287B1F"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"/>
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"/>
+
+</LinearLayout>
