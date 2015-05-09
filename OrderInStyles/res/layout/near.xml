@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg">
+	<!-- Main ListView 
+		 Always give id value as list(@android:id/list)
+	-->
+	<Button
+        android:id="@+id/btn_offer"
+        android:layout_width="170dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textSize="10pt"
+        android:layout_marginTop="15dip"
+        android:layout_marginLeft="70dip"
+        android:layout_marginRight="70dip"
+        android:text="Offers In Style" 
+        android:background="#287B1F"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tv_lc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="0dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginLeft="15dip"
+        android:text="Location:"/>
+    <EditText
+        android:id="@+id/et_lc"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:layout_toRightOf="@id/tv_lc"
+        android:layout_marginLeft="5dip"
+        android:layout_alignTop="@id/tv_lc"/>    
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_lc"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="5dip"
+        android:layout_marginLeft="110dip"
+        android:text="Check Offers" />    
+        
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"/>
+
+</LinearLayout>

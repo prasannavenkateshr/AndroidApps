@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/bg1">
+  <!-- Name Label -->
+  <Button
+        android:id="@+id/btn_offer"
+        android:layout_width="170dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textSize="10pt"
+        android:layout_marginTop="15dip"
+        android:layout_marginLeft="70dip"
+        android:layout_marginRight="70dip"
+        android:text="Offers In Style" 
+        android:background="#287B1F"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"/>
+  
+  <TextView android:id="@+id/coupon_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip"
+        	android:layout_marginLeft="20dip"
+        	android:layout_marginRight="20dip"
+            android:textColor="#000000"
+            />
+  <TextView android:id="@+id/name_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dip"
+        	android:layout_marginLeft="40dip"
+        	android:layout_marginRight="20dip"
+            android:textSize="10pt"
+            android:textStyle="bold"
+            android:paddingTop="10dip"
+            android:paddingBottom="10dip"
+            android:textColor="#000000"/>
+  <!-- Description Label -->
+  <TextView android:id="@+id/email_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+        	android:layout_marginLeft="40dip"
+        	android:layout_marginRight="20dip"
+            android:textColor="#000000"/>
+  <!-- Price Label -->
+  <TextView android:id="@+id/mobile_label"
+      		android:layout_width="fill_parent"
+      		android:layout_height="wrap_content"
+      		android:layout_marginTop="15dip"
+        	android:layout_marginLeft="40dip"
+        	android:layout_marginRight="20dip"
+      		android:textStyle="bold"/>
+</LinearLayout>
